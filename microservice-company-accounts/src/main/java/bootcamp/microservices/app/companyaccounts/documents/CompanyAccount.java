@@ -29,6 +29,8 @@ public class CompanyAccount implements Serializable {
 	private List<Holder> listOfHolders;
 	
 	private List<Signatory> listOfSignatories;
+	
+	private Integer operationsNumber;
 
 	@JsonFormat(pattern = "dd-MM-yyyy")
 	private Date createDate;
