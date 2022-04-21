@@ -25,12 +25,14 @@ public class CompanyAccount implements Serializable {
 	private String idCompany;
 
 	private Double amount;
-	
+
 	private List<Holder> listOfHolders;
-	
+
 	private List<Signatory> listOfSignatories;
-	
+
 	private Integer operationsNumber;
+
+	private Double minimumBalance;
 
 	@JsonFormat(pattern = "dd-MM-yyyy")
 	private Date createDate;
